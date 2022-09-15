@@ -1,0 +1,32 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    padding:30px;
+}
+
+form{
+    display:flex;
+    align-items:start;
+    justify-content:space-between;
+    flex-direction: column;
+    padding:15px;
+    
+}
+
+form div{
+  display: flex;
+  align-items:center;
+  padding:10px;
+  justify-content: center;
+  flex-direction: column;
+
+}
+form div label{
+    margin: 10px;
+}
+form div input{
+    margin: 10px;
+}
